@@ -1,0 +1,34 @@
+
+:root {
+    --grey: rgb(187, 187, 187);
+    --darker-grey: rgb(156, 156, 156);
+    --white: white;
+    --black: black;
+}
+
+/* Button */
+button {
+    border: 0px;
+    padding: 10px;
+}
+/* Heights */
+#logo {
+    height: 50px;
+}
+.box {
+    height: 100px;
+}
+/* Background Colors */
+.grey-background {
+    background-color: var(--grey);
+}
+.black-background{
+    background-color: var(--black);
+}
+/* Text Colors */
+.grey-font {
+    color: var(--darker-grey);
+}
+.white-font {
+    color: var(--white);
+}
