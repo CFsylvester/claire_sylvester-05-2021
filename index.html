@@ -122,10 +122,15 @@
                 </strong>
             </h1>
             <p>
-                Remove the duplicates in 2 Javascript objects and output the list of distinct names in an unordered list when this <a class="red-font">link is clicked</a>, if the operation has been completed
+                Remove the duplicates in 2 Javascript objects and output the list of distinct names in an unordered list when this <a id="duplicatesLink" class="red-font">link is clicked</a>, if the operation has been completed
                 already notify the user that this has already been done.
             </p>
-            <div id="listDiv"></div>
+            <p id='removeDuplicatesError' class="red-font">
+                List has already been generated.
+            </p>
+            <div>
+                <ul id="listDiv"></ul>
+            </div>
         </section>
     </div>
     <footer class="black-background">
@@ -133,5 +138,6 @@
             Thank you for your time and consideration :)
         </div>
     </footer>
+    <script src="test.js"></script>
 </body>
 </html>

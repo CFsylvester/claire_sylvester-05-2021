@@ -36,3 +36,7 @@ button {
 .red-font {
     color: var(--red);
 }
+/* Error Messages */
+#removeDuplicatesError {
+    display: none;
+}
