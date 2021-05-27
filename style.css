@@ -4,6 +4,7 @@
     --darker-grey: rgb(156, 156, 156);
     --white: white;
     --black: black;
+    --red: red; 
 }
 
 /* Button */
@@ -31,4 +32,7 @@ button {
 }
 .white-font {
     color: var(--white);
+}
+.red-font {
+    color: var(--red);
 }

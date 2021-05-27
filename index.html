@@ -16,7 +16,7 @@
     </header>
     <div>
         <!-- First Section -->
-        <section class="container">
+        <section class="container pt-4">
             <div class="row my-4">
                 <h1 class="text-uppercase col-12 my-2">
                     <strong>
@@ -67,22 +67,71 @@
             </div>
         </section>
         <!-- Second Section (Form) -->
-        <section class="grey-background">
-            hi
+        <section class="grey-background py-5">
+            <div class="container py-3">
+                <h1 class="white-font text-uppercase text-center pb-3">
+                    Contact
+                </h1>
+                <form class="mx-5">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <label for="exampleInputEmail" class="white-font">Email</label>
+                            </div>
+                            <div class="col text-right">
+                                <small id="emailError" class="form-text red-font font-italic">Must use a valid email.</small>
+                            </div>
+                        </div>
+                        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailError">
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <label for="exampleInputSubject" class="white-font">Subject</label>
+                            </div>
+                            <div class="col text-right">
+                                <small id="subjectError" class="form-text red-font font-italic">Subject is required.</small>
+                            </div>
+                        </div>
+                        <input type="email" class="form-control" id="exampleInputSubject" aria-describedby="subjectError">
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <label for="exampleFormControlTextarea" class="white-font">Message</label>
+                            </div>
+                            <div class="col text-right">
+                                <small id="messageError" class="form-text red-font font-italic">Message is required.</small>
+                            </div>
+                        </div>
+                        <textarea class="form-control" id="exampleFormControlTextarea" rows="7"></textarea>
+                    </div>
+                    <button type="button" class="white-font black-background my-3 px-4">
+                        Submit
+                    </button>
+                  </form>
+            </div>
         </section>
         <!-- Third Section -->
-        <section class="container">
-            <h1 class="text-uppercase my-5">
+        <section class="container pt-4 pb-5">
+            <h1 class="text-uppercase my-4">
                 <strong>
                     <u>
                         Heading One
                     </u>
                 </strong>
             </h1>
+            <p>
+                Remove the duplicates in 2 Javascript objects and output the list of distinct names in an unordered list when this <a class="red-font">link is clicked</a>, if the operation has been completed
+                already notify the user that this has already been done.
+            </p>
+            <div id="listDiv"></div>
         </section>
     </div>
-    <footer>
-
+    <footer class="black-background">
+        <div class="white-font text-center py-4 font-italic">
+            Thank you for your time and consideration :)
+        </div>
     </footer>
 </body>
 </html>
