@@ -40,3 +40,12 @@ button {
 #removeDuplicatesError {
     display: none;
 }
+#messageError {
+    display: none;
+}
+#emailError {
+    display: none;
+}
+#subjectError {
+    display: none;
+}
